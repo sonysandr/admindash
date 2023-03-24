@@ -1,57 +1,17 @@
 import "./App.css";
+import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 
 function App() {
-  return <div className="App">
-    <Topbar/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    test <br/>
-    As we scroll we can see the Topbar now.
-  </div>;
+  return (
+    <div className="App">
+      <Topbar />
+      <div className="container">
+        <Sidebar />
+        <div className="others">Other Pages</div>
+      </div>
+    </div>
+  );
 }
 
 export default App;
