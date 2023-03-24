@@ -50,7 +50,7 @@ function App() {
     test <br/>
     test <br/>
     test <br/>
-    As we scroll we Can't See the Topbar now
+    As we scroll we can see the Topbar now.
   </div>;
 }
 
