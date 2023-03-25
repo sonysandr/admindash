@@ -12,6 +12,7 @@ import {
   FeedbackOutlined,
   AlternateEmailOutlined,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -32,12 +33,18 @@ export default function Sidebar() {
           </ul>
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem ">
-              <Person className="sidebarIcon" /> Users
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebarListItem ">
+                <Person className="sidebarIcon" /> Users
+              </li>
+            </Link>
+
+            <Link to="/products" className="link">
+
             <li className="sidebarListItem ">
               <StoreOutlined className="sidebarIcon" /> Products
             </li>
+            </Link>
             <li className="sidebarListItem">
               <PaidOutlined className="sidebarIcon" />
               Transaction
