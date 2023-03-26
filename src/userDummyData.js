@@ -196,3 +196,78 @@ export const productRows = [
     status: "active",
     price: "$565" },
 ]
+
+export const productData = [
+  {
+    
+    name: "jan",
+    "Sales Data" : 7600,
+    
+  },
+  {
+    
+    name: "feb",
+    "Sales Data" : 4560,
+    
+  },
+  {
+    
+    name: "mar",
+    "Sales Data" : 4500,
+    
+  },
+  {
+    
+    name: "apr",
+    "Sales Data" : 4000,
+    
+   
+  },
+  {
+    
+    name: "may",
+    "Sales Data" : 2000,
+  },
+  {
+    
+    name: "jun",
+    "Sales Data" : 5000,
+  },
+  {
+    
+    name: "jul",
+    "Sales Data" : 8000,
+    
+    
+  },
+  {
+    
+    name: "aug",
+    "Sales Data" : 4000,
+    
+  },
+  {
+    
+    name: "sep",
+    "Sales Data" : 4760,
+    
+  },
+  {
+    
+    name: "oct",
+    "Sales Data" : 6788,
+    
+  },
+  {
+    
+    name: "nov",
+    "Sales Data" : 8776,
+    
+  },
+  {
+    
+    name: "dec",
+    "Sales Data" : 8756,
+    
+  },
+]

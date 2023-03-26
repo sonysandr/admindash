@@ -30,3 +30,28 @@ align-items: center;
 .productList{
 
     }
+
+    .product{
+        flex: 4;
+        padding: 20px;
+    }
+    .productTitleConatiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .productTitle{
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .productAddButton{
+    width: 100px;
+    bottom: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(19, 114, 92);
+    font-size: 16px;
+    cursor: pointer;
+    
+    }    

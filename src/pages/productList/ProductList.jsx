@@ -21,9 +21,7 @@ export default function ProductList() {
       renderCell: (params) => {
         return (
           <div className="productListItem">
-            <img className="productListImg" 
-            src={params.row.img} 
-            alt="user" />
+            <img className="productListImg" src={params.row.img} alt="user" />
             {params.row.name}
           </div>
         );
@@ -66,6 +64,14 @@ export default function ProductList() {
 
   return (
     <div className="productList">
+      <div className="product">
+        <div className="productTitleConatiner">
+          <h1 className="productTitle">Product List</h1>
+          <Link to="/newproduct">
+            <button className="productAddButton">Add Product</button>
+          </Link>
+        </div>
+      </div>
       <DataGrid
         rows={data}
         disableRowSelectionOnClick

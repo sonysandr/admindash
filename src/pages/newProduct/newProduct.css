@@ -1,0 +1,50 @@
+.newProduct{
+    flex: 4;
+    margin: 20px;
+    
+}
+
+.addProductTitle{
+    font-weight: 600;
+}
+
+
+.productForm{
+    display: flex;
+    justify-content: space-between;
+    }
+    .productFormLeft{
+        display: flex;
+        flex-direction: column;
+    }
+    .productFormLeft>label{
+        margin-bottom: 10px;
+font-size: 14px;
+font-weight: 600;
+color: gray;
+    }
+    .productFormLeft>input{
+        height: 20px;
+padding: 10px;
+border: 1px solid gray;
+border-radius: 5px;
+width: 240px;
+        
+    }
+    .productFormLeft>select{
+        padding: 5px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+   
+    
+    .productButton{
+        margin-top: 10px;
+        border: none;
+        background-color: rebeccapurple;
+        color: white;
+        border-radius: 4px;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
